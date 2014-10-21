@@ -1,0 +1,692 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		15C156BB1683155600D239F2 /* libcocos2dx.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 15C156B81683151A00D239F2 /* libcocos2dx.a */; };
+		41BC70AD15BF7CCE006A0A6C /* Icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 41BC70AC15BF7CCE006A0A6C /* Icon.icns */; };
+		41CD6C6515BF7574005E6F29 /* AppController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 41CD6C6315BF7574005E6F29 /* AppController.mm */; };
+		41CD6C6615BF7574005E6F29 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 41CD6C6415BF7574005E6F29 /* main.m */; };
+		41CD6C6E15BF7673005E6F29 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 41CD6C6815BF7673005E6F29 /* InfoPlist.strings */; };
+		41CD6C6F15BF7673005E6F29 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41CD6C6A15BF7673005E6F29 /* MainMenu.xib */; };
+		41CD6C8F15BF7793005E6F29 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41CD6C8715BF7793005E6F29 /* AppKit.framework */; };
+		41CD6C9015BF7793005E6F29 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41CD6C8815BF7793005E6F29 /* AudioToolbox.framework */; };
+		41CD6C9115BF7793005E6F29 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41CD6C8915BF7793005E6F29 /* Cocoa.framework */; };
+		41CD6C9215BF7793005E6F29 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41CD6C8A15BF7793005E6F29 /* CoreFoundation.framework */; };
+		41CD6C9315BF7793005E6F29 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41CD6C8B15BF7793005E6F29 /* Foundation.framework */; };
+		41CD6C9415BF7793005E6F29 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41CD6C8C15BF7793005E6F29 /* OpenAL.framework */; };
+		41CD6C9515BF7793005E6F29 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41CD6C8D15BF7793005E6F29 /* OpenGL.framework */; };
+		41CD6C9615BF7793005E6F29 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41CD6C8E15BF7793005E6F29 /* QuartzCore.framework */; };
+		41CD6C9915BF77CE005E6F29 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 41CD6C9715BF77CE005E6F29 /* libxml2.dylib */; };
+		41CD6C9A15BF77CE005E6F29 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 41CD6C9815BF77CE005E6F29 /* libz.dylib */; };
+		F6892E1918FED2E000E401CA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F6892DFA18FED2E000E401CA /* InfoPlist.strings */; };
+		F6892E1A18FED2E000E401CA /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = F6892DFC18FED2E000E401CA /* MainMenu.xib */; };
+		F6892E1B18FED2E000E401CA /* Marker Felt.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F6892DFF18FED2E000E401CA /* Marker Felt.ttf */; };
+		F6ABA92019235EA000A7925F /* AboutCoderLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F6ABA8F219235EA000A7925F /* AboutCoderLayer.cpp */; };
+		F6ABA92119235EA000A7925F /* AppDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F6ABA8F419235EA000A7925F /* AppDelegate.cpp */; };
+		F6ABA92219235EA000A7925F /* BaseLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F6ABA8F619235EA000A7925F /* BaseLayer.cpp */; };
+		F6ABA92319235EA000A7925F /* BirdClippingNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F6ABA8F819235EA000A7925F /* BirdClippingNode.cpp */; };
+		F6ABA92419235EA000A7925F /* BirdSystem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F6ABA8FA19235EA000A7925F /* BirdSystem.cpp */; };
+		F6ABA92519235EA000A7925F /* BloodBarSprite.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F6ABA8FC19235EA000A7925F /* BloodBarSprite.cpp */; };
+		F6ABA92619235EA000A7925F /* CloudSprite.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F6ABA8FE19235EA000A7925F /* CloudSprite.cpp */; };
+		F6ABA92719235EA000A7925F /* EntryLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F6ABA90019235EA000A7925F /* EntryLayer.cpp */; };
+		F6ABA92819235EA000A7925F /* FlyLamaSprite.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F6ABA90219235EA000A7925F /* FlyLamaSprite.cpp */; };
+		F6ABA92919235EA000A7925F /* FlyLamaSystem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F6ABA90419235EA000A7925F /* FlyLamaSystem.cpp */; };
+		F6ABA92A19235EA000A7925F /* GameBackground.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F6ABA90619235EA000A7925F /* GameBackground.cpp */; };
+		F6ABA92B19235EA000A7925F /* GameLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F6ABA90819235EA000A7925F /* GameLayer.cpp */; };
+		F6ABA92C19235EA000A7925F /* GameOverLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F6ABA90A19235EA000A7925F /* GameOverLayer.cpp */; };
+		F6ABA92D19235EA000A7925F /* GameWinLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F6ABA90C19235EA000A7925F /* GameWinLayer.cpp */; };
+		F6ABA92E19235EA000A7925F /* GroundLamaSprite.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F6ABA90E19235EA000A7925F /* GroundLamaSprite.cpp */; };
+		F6ABA92F19235EA000A7925F /* HelloWorldScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F6ABA91019235EA000A7925F /* HelloWorldScene.cpp */; };
+		F6ABA93019235EA000A7925F /* LoadingEntryLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F6ABA91219235EA000A7925F /* LoadingEntryLayer.cpp */; };
+		F6ABA93119235EA000A7925F /* LoadingGameLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F6ABA91419235EA000A7925F /* LoadingGameLayer.cpp */; };
+		F6ABA93219235EA000A7925F /* LoadingWelcomeLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F6ABA91619235EA000A7925F /* LoadingWelcomeLayer.cpp */; };
+		F6ABA93319235EA000A7925F /* MonsterSys.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F6ABA91819235EA000A7925F /* MonsterSys.cpp */; };
+		F6ABA93419235EA000A7925F /* PauseLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F6ABA91A19235EA000A7925F /* PauseLayer.cpp */; };
+		F6ABA93519235EA000A7925F /* RandNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F6ABA91C19235EA000A7925F /* RandNumber.cpp */; };
+		F6ABA93619235EA000A7925F /* WelComeGameLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F6ABA91E19235EA000A7925F /* WelComeGameLayer.cpp */; };
+		F6ABAC761924E9D600A7925F /* CloseNormal.png in Resources */ = {isa = PBXBuildFile; fileRef = F6ABAC611924E9D600A7925F /* CloseNormal.png */; };
+		F6ABAC771924E9D600A7925F /* CloseSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = F6ABAC621924E9D600A7925F /* CloseSelected.png */; };
+		F6ABAC781924E9D600A7925F /* entry1 in Resources */ = {isa = PBXBuildFile; fileRef = F6ABAC631924E9D600A7925F /* entry1 */; };
+		F6ABAC791924E9D600A7925F /* entry2 in Resources */ = {isa = PBXBuildFile; fileRef = F6ABAC641924E9D600A7925F /* entry2 */; };
+		F6ABAC7A1924E9D600A7925F /* entry3 in Resources */ = {isa = PBXBuildFile; fileRef = F6ABAC651924E9D600A7925F /* entry3 */; };
+		F6ABAC7B1924E9D600A7925F /* entry4 in Resources */ = {isa = PBXBuildFile; fileRef = F6ABAC661924E9D600A7925F /* entry4 */; };
+		F6ABAC7C1924E9D600A7925F /* entry5 in Resources */ = {isa = PBXBuildFile; fileRef = F6ABAC671924E9D600A7925F /* entry5 */; };
+		F6ABAC7D1924E9D600A7925F /* entry6 in Resources */ = {isa = PBXBuildFile; fileRef = F6ABAC681924E9D600A7925F /* entry6 */; };
+		F6ABAC7E1924E9D600A7925F /* fonts in Resources */ = {isa = PBXBuildFile; fileRef = F6ABAC691924E9D600A7925F /* fonts */; };
+		F6ABAC7F1924E9D600A7925F /* game in Resources */ = {isa = PBXBuildFile; fileRef = F6ABAC6A1924E9D600A7925F /* game */; };
+		F6ABAC801924E9D600A7925F /* gamebg in Resources */ = {isa = PBXBuildFile; fileRef = F6ABAC6B1924E9D600A7925F /* gamebg */; };
+		F6ABAC811924E9D600A7925F /* gate in Resources */ = {isa = PBXBuildFile; fileRef = F6ABAC6C1924E9D600A7925F /* gate */; };
+		F6ABAC821924E9D600A7925F /* HelloWorld.png in Resources */ = {isa = PBXBuildFile; fileRef = F6ABAC6D1924E9D600A7925F /* HelloWorld.png */; };
+		F6ABAC831924E9D600A7925F /* ipad in Resources */ = {isa = PBXBuildFile; fileRef = F6ABAC6E1924E9D600A7925F /* ipad */; };
+		F6ABAC841924E9D600A7925F /* ipadhd in Resources */ = {isa = PBXBuildFile; fileRef = F6ABAC6F1924E9D600A7925F /* ipadhd */; };
+		F6ABAC851924E9D600A7925F /* iphone in Resources */ = {isa = PBXBuildFile; fileRef = F6ABAC701924E9D600A7925F /* iphone */; };
+		F6ABAC861924E9D600A7925F /* loading in Resources */ = {isa = PBXBuildFile; fileRef = F6ABAC711924E9D600A7925F /* loading */; };
+		F6ABAC871924E9D600A7925F /* music in Resources */ = {isa = PBXBuildFile; fileRef = F6ABAC721924E9D600A7925F /* music */; };
+		F6ABAC881924E9D600A7925F /* pause in Resources */ = {isa = PBXBuildFile; fileRef = F6ABAC731924E9D600A7925F /* pause */; };
+		F6ABAC891924E9D600A7925F /* pilot in Resources */ = {isa = PBXBuildFile; fileRef = F6ABAC741924E9D600A7925F /* pilot */; };
+		F6ABAC8A1924E9D600A7925F /* scene in Resources */ = {isa = PBXBuildFile; fileRef = F6ABAC751924E9D600A7925F /* scene */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		15C156B71683151A00D239F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 15C156B01683151A00D239F2 /* cocos2dx.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1551A33F158F2AB200E66CFE;
+			remoteInfo = cocos2dx;
+		};
+		15C156B91683155000D239F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 15C156B01683151A00D239F2 /* cocos2dx.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 1551A33E158F2AB200E66CFE;
+			remoteInfo = cocos2dx;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		15C156B01683151A00D239F2 /* cocos2dx.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = cocos2dx.xcodeproj; path = ../../../../cocos2dx/proj.mac/cocos2dx.xcodeproj; sourceTree = "<group>"; };
+		41BC70AC15BF7CCE006A0A6C /* Icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Icon.icns; sourceTree = "<group>"; };
+		41CD6C5115BF748C005E6F29 /* HelloCpp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloCpp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		41CD6C6215BF7574005E6F29 /* AppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppController.h; sourceTree = "<group>"; };
+		41CD6C6315BF7574005E6F29 /* AppController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AppController.mm; sourceTree = "<group>"; };
+		41CD6C6415BF7574005E6F29 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		41CD6C6915BF7673005E6F29 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = InfoPlist.strings; sourceTree = "<group>"; };
+		41CD6C6B15BF7673005E6F29 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = MainMenu.xib; sourceTree = "<group>"; };
+		41CD6C6C15BF7673005E6F29 /* HelloCpp_Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = HelloCpp_Info.plist; sourceTree = "<group>"; };
+		41CD6C6D15BF7673005E6F29 /* HelloCpp_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelloCpp_Prefix.pch; sourceTree = "<group>"; };
+		41CD6C8715BF7793005E6F29 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		41CD6C8815BF7793005E6F29 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		41CD6C8915BF7793005E6F29 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		41CD6C8A15BF7793005E6F29 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		41CD6C8B15BF7793005E6F29 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		41CD6C8C15BF7793005E6F29 /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
+		41CD6C8D15BF7793005E6F29 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		41CD6C8E15BF7793005E6F29 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		41CD6C9715BF77CE005E6F29 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		41CD6C9815BF77CE005E6F29 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		F6892DFB18FED2E000E401CA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = InfoPlist.strings; sourceTree = "<group>"; };
+		F6892DFD18FED2E000E401CA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = MainMenu.xib; sourceTree = "<group>"; };
+		F6892DFF18FED2E000E401CA /* Marker Felt.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Marker Felt.ttf"; sourceTree = "<group>"; };
+		F6ABA8F219235EA000A7925F /* AboutCoderLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AboutCoderLayer.cpp; path = ../Classes/AboutCoderLayer.cpp; sourceTree = "<group>"; };
+		F6ABA8F319235EA000A7925F /* AboutCoderLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AboutCoderLayer.h; path = ../Classes/AboutCoderLayer.h; sourceTree = "<group>"; };
+		F6ABA8F419235EA000A7925F /* AppDelegate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AppDelegate.cpp; path = ../Classes/AppDelegate.cpp; sourceTree = "<group>"; };
+		F6ABA8F519235EA000A7925F /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../Classes/AppDelegate.h; sourceTree = "<group>"; };
+		F6ABA8F619235EA000A7925F /* BaseLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BaseLayer.cpp; path = ../Classes/BaseLayer.cpp; sourceTree = "<group>"; };
+		F6ABA8F719235EA000A7925F /* BaseLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseLayer.h; path = ../Classes/BaseLayer.h; sourceTree = "<group>"; };
+		F6ABA8F819235EA000A7925F /* BirdClippingNode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BirdClippingNode.cpp; path = ../Classes/BirdClippingNode.cpp; sourceTree = "<group>"; };
+		F6ABA8F919235EA000A7925F /* BirdClippingNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BirdClippingNode.h; path = ../Classes/BirdClippingNode.h; sourceTree = "<group>"; };
+		F6ABA8FA19235EA000A7925F /* BirdSystem.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BirdSystem.cpp; path = ../Classes/BirdSystem.cpp; sourceTree = "<group>"; };
+		F6ABA8FB19235EA000A7925F /* BirdSystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BirdSystem.h; path = ../Classes/BirdSystem.h; sourceTree = "<group>"; };
+		F6ABA8FC19235EA000A7925F /* BloodBarSprite.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BloodBarSprite.cpp; path = ../Classes/BloodBarSprite.cpp; sourceTree = "<group>"; };
+		F6ABA8FD19235EA000A7925F /* BloodBarSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BloodBarSprite.h; path = ../Classes/BloodBarSprite.h; sourceTree = "<group>"; };
+		F6ABA8FE19235EA000A7925F /* CloudSprite.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CloudSprite.cpp; path = ../Classes/CloudSprite.cpp; sourceTree = "<group>"; };
+		F6ABA8FF19235EA000A7925F /* CloudSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CloudSprite.h; path = ../Classes/CloudSprite.h; sourceTree = "<group>"; };
+		F6ABA90019235EA000A7925F /* EntryLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = EntryLayer.cpp; path = ../Classes/EntryLayer.cpp; sourceTree = "<group>"; };
+		F6ABA90119235EA000A7925F /* EntryLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EntryLayer.h; path = ../Classes/EntryLayer.h; sourceTree = "<group>"; };
+		F6ABA90219235EA000A7925F /* FlyLamaSprite.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FlyLamaSprite.cpp; path = ../Classes/FlyLamaSprite.cpp; sourceTree = "<group>"; };
+		F6ABA90319235EA000A7925F /* FlyLamaSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FlyLamaSprite.h; path = ../Classes/FlyLamaSprite.h; sourceTree = "<group>"; };
+		F6ABA90419235EA000A7925F /* FlyLamaSystem.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FlyLamaSystem.cpp; path = ../Classes/FlyLamaSystem.cpp; sourceTree = "<group>"; };
+		F6ABA90519235EA000A7925F /* FlyLamaSystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FlyLamaSystem.h; path = ../Classes/FlyLamaSystem.h; sourceTree = "<group>"; };
+		F6ABA90619235EA000A7925F /* GameBackground.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GameBackground.cpp; path = ../Classes/GameBackground.cpp; sourceTree = "<group>"; };
+		F6ABA90719235EA000A7925F /* GameBackground.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameBackground.h; path = ../Classes/GameBackground.h; sourceTree = "<group>"; };
+		F6ABA90819235EA000A7925F /* GameLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GameLayer.cpp; path = ../Classes/GameLayer.cpp; sourceTree = "<group>"; };
+		F6ABA90919235EA000A7925F /* GameLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameLayer.h; path = ../Classes/GameLayer.h; sourceTree = "<group>"; };
+		F6ABA90A19235EA000A7925F /* GameOverLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GameOverLayer.cpp; path = ../Classes/GameOverLayer.cpp; sourceTree = "<group>"; };
+		F6ABA90B19235EA000A7925F /* GameOverLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameOverLayer.h; path = ../Classes/GameOverLayer.h; sourceTree = "<group>"; };
+		F6ABA90C19235EA000A7925F /* GameWinLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GameWinLayer.cpp; path = ../Classes/GameWinLayer.cpp; sourceTree = "<group>"; };
+		F6ABA90D19235EA000A7925F /* GameWinLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameWinLayer.h; path = ../Classes/GameWinLayer.h; sourceTree = "<group>"; };
+		F6ABA90E19235EA000A7925F /* GroundLamaSprite.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GroundLamaSprite.cpp; path = ../Classes/GroundLamaSprite.cpp; sourceTree = "<group>"; };
+		F6ABA90F19235EA000A7925F /* GroundLamaSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GroundLamaSprite.h; path = ../Classes/GroundLamaSprite.h; sourceTree = "<group>"; };
+		F6ABA91019235EA000A7925F /* HelloWorldScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = HelloWorldScene.cpp; path = ../Classes/HelloWorldScene.cpp; sourceTree = "<group>"; };
+		F6ABA91119235EA000A7925F /* HelloWorldScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HelloWorldScene.h; path = ../Classes/HelloWorldScene.h; sourceTree = "<group>"; };
+		F6ABA91219235EA000A7925F /* LoadingEntryLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LoadingEntryLayer.cpp; path = ../Classes/LoadingEntryLayer.cpp; sourceTree = "<group>"; };
+		F6ABA91319235EA000A7925F /* LoadingEntryLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoadingEntryLayer.h; path = ../Classes/LoadingEntryLayer.h; sourceTree = "<group>"; };
+		F6ABA91419235EA000A7925F /* LoadingGameLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LoadingGameLayer.cpp; path = ../Classes/LoadingGameLayer.cpp; sourceTree = "<group>"; };
+		F6ABA91519235EA000A7925F /* LoadingGameLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoadingGameLayer.h; path = ../Classes/LoadingGameLayer.h; sourceTree = "<group>"; };
+		F6ABA91619235EA000A7925F /* LoadingWelcomeLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LoadingWelcomeLayer.cpp; path = ../Classes/LoadingWelcomeLayer.cpp; sourceTree = "<group>"; };
+		F6ABA91719235EA000A7925F /* LoadingWelcomeLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoadingWelcomeLayer.h; path = ../Classes/LoadingWelcomeLayer.h; sourceTree = "<group>"; };
+		F6ABA91819235EA000A7925F /* MonsterSys.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MonsterSys.cpp; path = ../Classes/MonsterSys.cpp; sourceTree = "<group>"; };
+		F6ABA91919235EA000A7925F /* MonsterSys.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MonsterSys.h; path = ../Classes/MonsterSys.h; sourceTree = "<group>"; };
+		F6ABA91A19235EA000A7925F /* PauseLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PauseLayer.cpp; path = ../Classes/PauseLayer.cpp; sourceTree = "<group>"; };
+		F6ABA91B19235EA000A7925F /* PauseLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PauseLayer.h; path = ../Classes/PauseLayer.h; sourceTree = "<group>"; };
+		F6ABA91C19235EA000A7925F /* RandNumber.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = RandNumber.cpp; path = ../Classes/RandNumber.cpp; sourceTree = "<group>"; };
+		F6ABA91D19235EA000A7925F /* RandNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RandNumber.h; path = ../Classes/RandNumber.h; sourceTree = "<group>"; };
+		F6ABA91E19235EA000A7925F /* WelComeGameLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = WelComeGameLayer.cpp; path = ../Classes/WelComeGameLayer.cpp; sourceTree = "<group>"; };
+		F6ABA91F19235EA000A7925F /* WelComeGameLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WelComeGameLayer.h; path = ../Classes/WelComeGameLayer.h; sourceTree = "<group>"; };
+		F6ABAC611924E9D600A7925F /* CloseNormal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = CloseNormal.png; path = ../Resources/CloseNormal.png; sourceTree = "<group>"; };
+		F6ABAC621924E9D600A7925F /* CloseSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = CloseSelected.png; path = ../Resources/CloseSelected.png; sourceTree = "<group>"; };
+		F6ABAC631924E9D600A7925F /* entry1 */ = {isa = PBXFileReference; lastKnownFileType = folder; name = entry1; path = ../Resources/entry1; sourceTree = "<group>"; };
+		F6ABAC641924E9D600A7925F /* entry2 */ = {isa = PBXFileReference; lastKnownFileType = folder; name = entry2; path = ../Resources/entry2; sourceTree = "<group>"; };
+		F6ABAC651924E9D600A7925F /* entry3 */ = {isa = PBXFileReference; lastKnownFileType = folder; name = entry3; path = ../Resources/entry3; sourceTree = "<group>"; };
+		F6ABAC661924E9D600A7925F /* entry4 */ = {isa = PBXFileReference; lastKnownFileType = folder; name = entry4; path = ../Resources/entry4; sourceTree = "<group>"; };
+		F6ABAC671924E9D600A7925F /* entry5 */ = {isa = PBXFileReference; lastKnownFileType = folder; name = entry5; path = ../Resources/entry5; sourceTree = "<group>"; };
+		F6ABAC681924E9D600A7925F /* entry6 */ = {isa = PBXFileReference; lastKnownFileType = folder; name = entry6; path = ../Resources/entry6; sourceTree = "<group>"; };
+		F6ABAC691924E9D600A7925F /* fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; name = fonts; path = ../Resources/fonts; sourceTree = "<group>"; };
+		F6ABAC6A1924E9D600A7925F /* game */ = {isa = PBXFileReference; lastKnownFileType = folder; name = game; path = ../Resources/game; sourceTree = "<group>"; };
+		F6ABAC6B1924E9D600A7925F /* gamebg */ = {isa = PBXFileReference; lastKnownFileType = folder; name = gamebg; path = ../Resources/gamebg; sourceTree = "<group>"; };
+		F6ABAC6C1924E9D600A7925F /* gate */ = {isa = PBXFileReference; lastKnownFileType = folder; name = gate; path = ../Resources/gate; sourceTree = "<group>"; };
+		F6ABAC6D1924E9D600A7925F /* HelloWorld.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = HelloWorld.png; path = ../Resources/HelloWorld.png; sourceTree = "<group>"; };
+		F6ABAC6E1924E9D600A7925F /* ipad */ = {isa = PBXFileReference; lastKnownFileType = folder; name = ipad; path = ../Resources/ipad; sourceTree = "<group>"; };
+		F6ABAC6F1924E9D600A7925F /* ipadhd */ = {isa = PBXFileReference; lastKnownFileType = folder; name = ipadhd; path = ../Resources/ipadhd; sourceTree = "<group>"; };
+		F6ABAC701924E9D600A7925F /* iphone */ = {isa = PBXFileReference; lastKnownFileType = folder; name = iphone; path = ../Resources/iphone; sourceTree = "<group>"; };
+		F6ABAC711924E9D600A7925F /* loading */ = {isa = PBXFileReference; lastKnownFileType = folder; name = loading; path = ../Resources/loading; sourceTree = "<group>"; };
+		F6ABAC721924E9D600A7925F /* music */ = {isa = PBXFileReference; lastKnownFileType = folder; name = music; path = ../Resources/music; sourceTree = "<group>"; };
+		F6ABAC731924E9D600A7925F /* pause */ = {isa = PBXFileReference; lastKnownFileType = folder; name = pause; path = ../Resources/pause; sourceTree = "<group>"; };
+		F6ABAC741924E9D600A7925F /* pilot */ = {isa = PBXFileReference; lastKnownFileType = folder; name = pilot; path = ../Resources/pilot; sourceTree = "<group>"; };
+		F6ABAC751924E9D600A7925F /* scene */ = {isa = PBXFileReference; lastKnownFileType = folder; name = scene; path = ../Resources/scene; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		41851B8F15B93C32004083E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15C156BB1683155600D239F2 /* libcocos2dx.a in Frameworks */,
+				41CD6C8F15BF7793005E6F29 /* AppKit.framework in Frameworks */,
+				41CD6C9015BF7793005E6F29 /* AudioToolbox.framework in Frameworks */,
+				41CD6C9115BF7793005E6F29 /* Cocoa.framework in Frameworks */,
+				41CD6C9215BF7793005E6F29 /* CoreFoundation.framework in Frameworks */,
+				41CD6C9315BF7793005E6F29 /* Foundation.framework in Frameworks */,
+				41CD6C9415BF7793005E6F29 /* OpenAL.framework in Frameworks */,
+				41CD6C9515BF7793005E6F29 /* OpenGL.framework in Frameworks */,
+				41CD6C9615BF7793005E6F29 /* QuartzCore.framework in Frameworks */,
+				41CD6C9915BF77CE005E6F29 /* libxml2.dylib in Frameworks */,
+				41CD6C9A15BF77CE005E6F29 /* libz.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		15C156B11683151A00D239F2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				15C156B81683151A00D239F2 /* libcocos2dx.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		41851B8715B93C32004083E9 = {
+			isa = PBXGroup;
+			children = (
+				15C156B01683151A00D239F2 /* cocos2dx.xcodeproj */,
+				41CD6C5D15BF750B005E6F29 /* Classes */,
+				41CD6C5E15BF7514005E6F29 /* Frameworks */,
+				41CD6C5F15BF7522005E6F29 /* mac */,
+				41EFC1BB15BF7AC30083EA95 /* Products */,
+				41CD6C6115BF7556005E6F29 /* Resources */,
+			);
+			sourceTree = "<group>";
+		};
+		41CD6C5D15BF750B005E6F29 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F6ABA8F219235EA000A7925F /* AboutCoderLayer.cpp */,
+				F6ABA8F319235EA000A7925F /* AboutCoderLayer.h */,
+				F6ABA8F419235EA000A7925F /* AppDelegate.cpp */,
+				F6ABA8F519235EA000A7925F /* AppDelegate.h */,
+				F6ABA8F619235EA000A7925F /* BaseLayer.cpp */,
+				F6ABA8F719235EA000A7925F /* BaseLayer.h */,
+				F6ABA8F819235EA000A7925F /* BirdClippingNode.cpp */,
+				F6ABA8F919235EA000A7925F /* BirdClippingNode.h */,
+				F6ABA8FA19235EA000A7925F /* BirdSystem.cpp */,
+				F6ABA8FB19235EA000A7925F /* BirdSystem.h */,
+				F6ABA8FC19235EA000A7925F /* BloodBarSprite.cpp */,
+				F6ABA8FD19235EA000A7925F /* BloodBarSprite.h */,
+				F6ABA8FE19235EA000A7925F /* CloudSprite.cpp */,
+				F6ABA8FF19235EA000A7925F /* CloudSprite.h */,
+				F6ABA90019235EA000A7925F /* EntryLayer.cpp */,
+				F6ABA90119235EA000A7925F /* EntryLayer.h */,
+				F6ABA90219235EA000A7925F /* FlyLamaSprite.cpp */,
+				F6ABA90319235EA000A7925F /* FlyLamaSprite.h */,
+				F6ABA90419235EA000A7925F /* FlyLamaSystem.cpp */,
+				F6ABA90519235EA000A7925F /* FlyLamaSystem.h */,
+				F6ABA90619235EA000A7925F /* GameBackground.cpp */,
+				F6ABA90719235EA000A7925F /* GameBackground.h */,
+				F6ABA90819235EA000A7925F /* GameLayer.cpp */,
+				F6ABA90919235EA000A7925F /* GameLayer.h */,
+				F6ABA90A19235EA000A7925F /* GameOverLayer.cpp */,
+				F6ABA90B19235EA000A7925F /* GameOverLayer.h */,
+				F6ABA90C19235EA000A7925F /* GameWinLayer.cpp */,
+				F6ABA90D19235EA000A7925F /* GameWinLayer.h */,
+				F6ABA90E19235EA000A7925F /* GroundLamaSprite.cpp */,
+				F6ABA90F19235EA000A7925F /* GroundLamaSprite.h */,
+				F6ABA91019235EA000A7925F /* HelloWorldScene.cpp */,
+				F6ABA91119235EA000A7925F /* HelloWorldScene.h */,
+				F6ABA91219235EA000A7925F /* LoadingEntryLayer.cpp */,
+				F6ABA91319235EA000A7925F /* LoadingEntryLayer.h */,
+				F6ABA91419235EA000A7925F /* LoadingGameLayer.cpp */,
+				F6ABA91519235EA000A7925F /* LoadingGameLayer.h */,
+				F6ABA91619235EA000A7925F /* LoadingWelcomeLayer.cpp */,
+				F6ABA91719235EA000A7925F /* LoadingWelcomeLayer.h */,
+				F6ABA91819235EA000A7925F /* MonsterSys.cpp */,
+				F6ABA91919235EA000A7925F /* MonsterSys.h */,
+				F6ABA91A19235EA000A7925F /* PauseLayer.cpp */,
+				F6ABA91B19235EA000A7925F /* PauseLayer.h */,
+				F6ABA91C19235EA000A7925F /* RandNumber.cpp */,
+				F6ABA91D19235EA000A7925F /* RandNumber.h */,
+				F6ABA91E19235EA000A7925F /* WelComeGameLayer.cpp */,
+				F6ABA91F19235EA000A7925F /* WelComeGameLayer.h */,
+				F6892DF918FED2E000E401CA /* en.lproj */,
+				F6892DFE18FED2E000E401CA /* fonts */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		41CD6C5E15BF7514005E6F29 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				41CD6C8715BF7793005E6F29 /* AppKit.framework */,
+				41CD6C8815BF7793005E6F29 /* AudioToolbox.framework */,
+				41CD6C8915BF7793005E6F29 /* Cocoa.framework */,
+				41CD6C8A15BF7793005E6F29 /* CoreFoundation.framework */,
+				41CD6C8B15BF7793005E6F29 /* Foundation.framework */,
+				41CD6C8C15BF7793005E6F29 /* OpenAL.framework */,
+				41CD6C8D15BF7793005E6F29 /* OpenGL.framework */,
+				41CD6C8E15BF7793005E6F29 /* QuartzCore.framework */,
+				41CD6C9715BF77CE005E6F29 /* libxml2.dylib */,
+				41CD6C9815BF77CE005E6F29 /* libz.dylib */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		41CD6C5F15BF7522005E6F29 /* mac */ = {
+			isa = PBXGroup;
+			children = (
+				41CD6C6215BF7574005E6F29 /* AppController.h */,
+				41CD6C6315BF7574005E6F29 /* AppController.mm */,
+				41CD6C6415BF7574005E6F29 /* main.m */,
+				41BC70AC15BF7CCE006A0A6C /* Icon.icns */,
+				41CD6C6715BF7673005E6F29 /* en.lproj */,
+				41CD6C6C15BF7673005E6F29 /* HelloCpp_Info.plist */,
+				41CD6C6D15BF7673005E6F29 /* HelloCpp_Prefix.pch */,
+			);
+			name = mac;
+			sourceTree = "<group>";
+		};
+		41CD6C6115BF7556005E6F29 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F6ABAC611924E9D600A7925F /* CloseNormal.png */,
+				F6ABAC621924E9D600A7925F /* CloseSelected.png */,
+				F6ABAC631924E9D600A7925F /* entry1 */,
+				F6ABAC641924E9D600A7925F /* entry2 */,
+				F6ABAC651924E9D600A7925F /* entry3 */,
+				F6ABAC661924E9D600A7925F /* entry4 */,
+				F6ABAC671924E9D600A7925F /* entry5 */,
+				F6ABAC681924E9D600A7925F /* entry6 */,
+				F6ABAC691924E9D600A7925F /* fonts */,
+				F6ABAC6A1924E9D600A7925F /* game */,
+				F6ABAC6B1924E9D600A7925F /* gamebg */,
+				F6ABAC6C1924E9D600A7925F /* gate */,
+				F6ABAC6D1924E9D600A7925F /* HelloWorld.png */,
+				F6ABAC6E1924E9D600A7925F /* ipad */,
+				F6ABAC6F1924E9D600A7925F /* ipadhd */,
+				F6ABAC701924E9D600A7925F /* iphone */,
+				F6ABAC711924E9D600A7925F /* loading */,
+				F6ABAC721924E9D600A7925F /* music */,
+				F6ABAC731924E9D600A7925F /* pause */,
+				F6ABAC741924E9D600A7925F /* pilot */,
+				F6ABAC751924E9D600A7925F /* scene */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		41CD6C6715BF7673005E6F29 /* en.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				41CD6C6815BF7673005E6F29 /* InfoPlist.strings */,
+				41CD6C6A15BF7673005E6F29 /* MainMenu.xib */,
+			);
+			path = en.lproj;
+			sourceTree = "<group>";
+		};
+		41EFC1BB15BF7AC30083EA95 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				41CD6C5115BF748C005E6F29 /* HelloCpp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F6892DF918FED2E000E401CA /* en.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				F6892DFA18FED2E000E401CA /* InfoPlist.strings */,
+				F6892DFC18FED2E000E401CA /* MainMenu.xib */,
+			);
+			path = en.lproj;
+			sourceTree = "<group>";
+		};
+		F6892DFE18FED2E000E401CA /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				F6892DFF18FED2E000E401CA /* Marker Felt.ttf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		41851B9115B93C32004083E9 /* HelloCpp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41851BB015B93C33004083E9 /* Build configuration list for PBXNativeTarget "HelloCpp" */;
+			buildPhases = (
+				41851B8E15B93C32004083E9 /* Sources */,
+				41851B8F15B93C32004083E9 /* Frameworks */,
+				41851B9015B93C32004083E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				15C156BA1683155000D239F2 /* PBXTargetDependency */,
+			);
+			name = HelloCpp;
+			productName = Paralaxer;
+			productReference = 41CD6C5115BF748C005E6F29 /* HelloCpp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		41851B8915B93C32004083E9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Bullets in a Burning Box, Inc.";
+			};
+			buildConfigurationList = 41851B8C15B93C32004083E9 /* Build configuration list for PBXProject "HelloCpp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 41851B8715B93C32004083E9;
+			productRefGroup = 41851B8715B93C32004083E9;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 15C156B11683151A00D239F2 /* Products */;
+					ProjectRef = 15C156B01683151A00D239F2 /* cocos2dx.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				41851B9115B93C32004083E9 /* HelloCpp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		15C156B81683151A00D239F2 /* libcocos2dx.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libcocos2dx.a;
+			remoteRef = 15C156B71683151A00D239F2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		41851B9015B93C32004083E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6ABAC8A1924E9D600A7925F /* scene in Resources */,
+				F6ABAC841924E9D600A7925F /* ipadhd in Resources */,
+				F6ABAC881924E9D600A7925F /* pause in Resources */,
+				F6ABAC801924E9D600A7925F /* gamebg in Resources */,
+				F6ABAC821924E9D600A7925F /* HelloWorld.png in Resources */,
+				F6ABAC7C1924E9D600A7925F /* entry5 in Resources */,
+				F6ABAC891924E9D600A7925F /* pilot in Resources */,
+				F6ABAC791924E9D600A7925F /* entry2 in Resources */,
+				F6ABAC811924E9D600A7925F /* gate in Resources */,
+				F6ABAC871924E9D600A7925F /* music in Resources */,
+				41CD6C6E15BF7673005E6F29 /* InfoPlist.strings in Resources */,
+				F6ABAC7A1924E9D600A7925F /* entry3 in Resources */,
+				F6892E1918FED2E000E401CA /* InfoPlist.strings in Resources */,
+				F6892E1B18FED2E000E401CA /* Marker Felt.ttf in Resources */,
+				F6ABAC7E1924E9D600A7925F /* fonts in Resources */,
+				F6ABAC771924E9D600A7925F /* CloseSelected.png in Resources */,
+				F6ABAC761924E9D600A7925F /* CloseNormal.png in Resources */,
+				F6ABAC7D1924E9D600A7925F /* entry6 in Resources */,
+				F6ABAC781924E9D600A7925F /* entry1 in Resources */,
+				F6ABAC831924E9D600A7925F /* ipad in Resources */,
+				F6ABAC7B1924E9D600A7925F /* entry4 in Resources */,
+				41CD6C6F15BF7673005E6F29 /* MainMenu.xib in Resources */,
+				41BC70AD15BF7CCE006A0A6C /* Icon.icns in Resources */,
+				F6ABAC7F1924E9D600A7925F /* game in Resources */,
+				F6892E1A18FED2E000E401CA /* MainMenu.xib in Resources */,
+				F6ABAC861924E9D600A7925F /* loading in Resources */,
+				F6ABAC851924E9D600A7925F /* iphone in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		41851B8E15B93C32004083E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6ABA93219235EA000A7925F /* LoadingWelcomeLayer.cpp in Sources */,
+				F6ABA92E19235EA000A7925F /* GroundLamaSprite.cpp in Sources */,
+				F6ABA92319235EA000A7925F /* BirdClippingNode.cpp in Sources */,
+				F6ABA92F19235EA000A7925F /* HelloWorldScene.cpp in Sources */,
+				F6ABA92919235EA000A7925F /* FlyLamaSystem.cpp in Sources */,
+				F6ABA93519235EA000A7925F /* RandNumber.cpp in Sources */,
+				F6ABA92119235EA000A7925F /* AppDelegate.cpp in Sources */,
+				F6ABA92419235EA000A7925F /* BirdSystem.cpp in Sources */,
+				41CD6C6515BF7574005E6F29 /* AppController.mm in Sources */,
+				F6ABA92B19235EA000A7925F /* GameLayer.cpp in Sources */,
+				F6ABA92D19235EA000A7925F /* GameWinLayer.cpp in Sources */,
+				F6ABA92219235EA000A7925F /* BaseLayer.cpp in Sources */,
+				F6ABA92019235EA000A7925F /* AboutCoderLayer.cpp in Sources */,
+				F6ABA92719235EA000A7925F /* EntryLayer.cpp in Sources */,
+				F6ABA93019235EA000A7925F /* LoadingEntryLayer.cpp in Sources */,
+				F6ABA92C19235EA000A7925F /* GameOverLayer.cpp in Sources */,
+				41CD6C6615BF7574005E6F29 /* main.m in Sources */,
+				F6ABA93319235EA000A7925F /* MonsterSys.cpp in Sources */,
+				F6ABA92819235EA000A7925F /* FlyLamaSprite.cpp in Sources */,
+				F6ABA92619235EA000A7925F /* CloudSprite.cpp in Sources */,
+				F6ABA92A19235EA000A7925F /* GameBackground.cpp in Sources */,
+				F6ABA93119235EA000A7925F /* LoadingGameLayer.cpp in Sources */,
+				F6ABA93619235EA000A7925F /* WelComeGameLayer.cpp in Sources */,
+				F6ABA92519235EA000A7925F /* BloodBarSprite.cpp in Sources */,
+				F6ABA93419235EA000A7925F /* PauseLayer.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		15C156BA1683155000D239F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = cocos2dx;
+			targetProxy = 15C156B91683155000D239F2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		41CD6C6815BF7673005E6F29 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				41CD6C6915BF7673005E6F29 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		41CD6C6A15BF7673005E6F29 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				41CD6C6B15BF7673005E6F29 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		F6892DFA18FED2E000E401CA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6892DFB18FED2E000E401CA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F6892DFC18FED2E000E401CA /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6892DFD18FED2E000E401CA /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		41851BAE15B93C33004083E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		41851BAF15B93C33004083E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		41851BB115B93C33004083E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = HelloCpp_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					CC_TARGET_OS_MAC,
+					"DEBUG=1",
+					USE_FILE32API,
+					"$(inherited)",
+				);
+				GCC_VERSION = "";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = NO;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
+				HEADER_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/include/libxml2/\"",
+					"\"$(SRCROOT)/../../../../cocos2dx/include\"",
+					"\"$(SRCROOT)/../../../../cocos2dx\"",
+					"\"$(SRCROOT)/../../../../cocos2dx/platform/mac\"",
+					"\"$(SRCROOT)/../../../../cocos2dx/kazmath/include\"",
+				);
+				INFOPLIST_FILE = HelloCpp_Info.plist;
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				OTHER_CPLUSPLUSFLAGS = "$(OTHER_CFLAGS)";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = HelloCpp;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		41851BB215B93C33004083E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = HelloCpp_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					USE_FILE32API,
+					CC_TARGET_OS_MAC,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = "";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = NO;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
+				HEADER_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/include/libxml2/\"",
+					"\"$(SRCROOT)/../../../../cocos2dx/include\"",
+					"\"$(SRCROOT)/../../../../cocos2dx\"",
+					"\"$(SRCROOT)/../../../../cocos2dx/platform/mac\"",
+					"\"$(SRCROOT)/../../../../cocos2dx/kazmath/include\"",
+				);
+				INFOPLIST_FILE = HelloCpp_Info.plist;
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				OTHER_CPLUSPLUSFLAGS = "$(OTHER_CFLAGS)";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = HelloCpp;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		41851B8C15B93C32004083E9 /* Build configuration list for PBXProject "HelloCpp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41851BAE15B93C33004083E9 /* Debug */,
+				41851BAF15B93C33004083E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41851BB015B93C33004083E9 /* Build configuration list for PBXNativeTarget "HelloCpp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41851BB115B93C33004083E9 /* Debug */,
+				41851BB215B93C33004083E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 41851B8915B93C32004083E9 /* Project object */;
+}
